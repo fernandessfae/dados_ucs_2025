@@ -36,13 +36,10 @@ Após essa breve explicação do que são as unidades de conservação, agora ir
 
 ## Panorama Nacional
 
-<div align='justify'>De acordo com os dados disponibilizados pelo ICMBio até o mês de fevereiro de 2025, cujo <a href='https://github.com/fernandessfae/dados_ucs_2025/blob/master/dadosgeoestatisticos_ucs_27fev2025.xlsx'>arquivo</a> dele estará presente no repositório, o Brasil possui as seguintes informações sobre as suas unidades de conservação:</div>
-<div style="display: flex; align-items: center;">
-  <figure>
-  <img src="readme_images/unidades_conservacao.jpg" alt='Unidades de conservação no Brasil em 2016' width="600" style="margin-right: 20px;">
-  <figcaption align='center'>Unidades Conservação no Brasil (2016) - Fonte: <a>GISMAP</a></figcaption>
-  </figure>
-</div>
+<div align='justify'>De acordo com os dados disponibilizados pelo ICMBio até o mês de fevereiro de 2025, cujo <a href='https://github.com/fernandessfae/dados_ucs_2025/blob/master/dadosgeoestatisticos_ucs_27fev2025.xlsx'>arquivo</a> dele estará presente no repositório, o Brasil possui as seguintes informações sobre as suas unidades de conservação:</div><br/>
+
+<div align="center"><img src="readme_images/unidades_conservacao.jpg"/></div>
+<div align="center">Unidades Conservação no Brasil (2016) - Fonte: <a>GISMAP</a></div><br/>
 
 <div align='justify'>
     <ul>
