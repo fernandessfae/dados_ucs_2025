@@ -1,0 +1,56 @@
+import unittest
+import pandas as pd
+import sys
+import os
+
+dir_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(dir_root)
+
+from data_analysis_ucs import (
+    is_dataframe, exist_column_in_dataframe, column_type_is_float)
+
+
+class TestIsDataframe(unittest.TestCase):
+
+    def setUp(self):
+        self.data = pd.DataFrame({'Column1': [1, 2, 3]})
+
+    def test_is_dataframe(self):
+        self.assertTrue(is_dataframe(self.data))
+    
+    def test_nao_dataframe(self):
+        data = [1, 2, 3]
+        self.assertFalse(is_dataframe(data))
+
+    def test_none(self):
+        data = None
+        self.assertFalse(is_dataframe(data))
+
+    def test_string(self):
+        data = "This is not a dataframe"
+        self.assertFalse(is_dataframe(data))
+    
+
+class TestExistColumnInDataframe(unittest.TestCase):
+
+    def setUp(self):
+        self.data = pd.DataFrame({'Column1': [1, 2, 3]})
+
+    def test_exist_column_in_dataframe(self):
+        self.assertTrue(exist_column_in_dataframe(self.data, 'Column1'))
+    
+    def test_column_not_exist(self):
+        self.assertFalse(exist_column_in_dataframe(self.data, 'Column2'))
+
+
+class TestColumnTypeIsFloat(unittest.TestCase):
+
+    def setUp(self):
+        self.data = pd.DataFrame({'Column1': [1.0, 2.0, 3.0]})
+
+    def test_column_type_is_float(self):
+        self.assertTrue(column_type_is_float(self.data, 'Column1'))
+
+
+if __name__ == '__main__':
+    unittest.main()
