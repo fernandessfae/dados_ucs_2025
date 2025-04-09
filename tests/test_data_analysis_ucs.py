@@ -6,8 +6,8 @@ import os
 dir_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(dir_root)
 
-from data_analysis_ucs import (
-    is_dataframe, exist_column_in_dataframe, column_type_is_float)
+from data_analysis_ucs import (is_dataframe, exist_column_in_dataframe,
+                               column_type_is_float, ensure_directory_exists)
 
 
 class TestIsDataframe(unittest.TestCase):
@@ -50,6 +50,13 @@ class TestColumnTypeIsFloat(unittest.TestCase):
 
     def test_column_type_is_float(self):
         self.assertTrue(column_type_is_float(self.data, 'Column1'))
+
+class TestEnsureDirectoryExists(unittest.TestCase):
+
+    def test_ensure_directory_exists(self):
+        directory = 'readme_images'
+        ensure_directory_exists(directory)
+        self.assertTrue(os.path.exists(directory)) 
 
 
 if __name__ == '__main__':
