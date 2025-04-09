@@ -39,7 +39,7 @@ Após essa breve explicação do que são as unidades de conservação, agora ir
 <div align='justify'>De acordo com os dados disponibilizados pelo ICMBio até o mês de fevereiro de 2025, cujo <a href='https://github.com/fernandessfae/dados_ucs_2025/blob/master/dadosgeoestatisticos_ucs_27fev2025.xlsx'>arquivo</a> dele estará presente no repositório, o Brasil possui as seguintes informações sobre as suas unidades de conservação:</div><br/>
 
 <div align="center"><img src="readme_images/unidades_conservacao.jpg"/></div>
-<div align="center">Unidades Conservação no Brasil (2016) - Fonte: <a>GISMAP</a></div><br/>
+<div align="center"><b>Unidades Conservação no Brasil (2016) - Fonte: <a href='https://www.gismaps.com.br/downloads/unidades-de-conservacao/'>GISMAP</a></b></div><br/>
 
 <div align='justify'>
     <ul>
@@ -85,7 +85,13 @@ Após essa breve explicação do que são as unidades de conservação, agora ir
         </li><br/>
     </ul>
     Podemos ver que a maioria das unidades de conservação, cerca de, aproximadamente, <b>70%</b> possui a <b>amazônia</b> e a <b>mata atlântica</b> como biomas principais e/ou predominantes.
-</div>
+</div><br/>
+<div align='justify'>Abaixo terão os gráficos das 5 maiores e menores UCs presentes, e registradas, em todo o território brasileiro.</div>
+<div align="center"><img src="readme_images/área_maior_top5_ucs_Brasil.jpg"/></div>
+<div align="center"><b>5 maiores UCs do Brasil - Fonte: Arquivo pessoal</b></div><br/>
+<div align="center"><img src="readme_images/área_menor_top5_ucs_Brasil.jpg"/></div>
+<div align="center"><b>5 menores UCs do Brasil - Fonte: Arquivo pessoal</b></div><br/>
+<div align='justify'> Após ver todo o panorama geral, agora veremos, com maiores detalhes, como funciona em cada região.</div>
 
 ## Panorama Regional
 
@@ -148,6 +154,12 @@ Como pode ser observado anteriormente, existem cerca de 340 Unidades de conserva
     </ul>
 </div>
 
+<div align='justify'>Abaixo terão os gráficos das 5 maiores e menores UCs presentes, e registradas, na região norte.</div>
+<div align="center"><img src="readme_images/área_maior_top5_ucs_região_norte.jpg"/></div>
+<div align="center"><b>5 maiores UCs do Brasil - Fonte: Arquivo pessoal</b></div><br/>
+<div align="center"><img src="readme_images/área_menor_top5_ucs_região_norte.jpg"/></div>
+<div align="center"><b>5 menores UCs do Brasil - Fonte: Arquivo pessoal</b></div><br/>
+
 ### Região Nordeste
 
 <div align='justify'>
@@ -187,6 +199,12 @@ Como pode ser observado anteriormente, existem cerca de 340 Unidades de conserva
     </ul>
 </div>
 
+<div align='justify'>Abaixo terá os gráficos das maiores e menores UCs presentes, e registradas, na região nordeste.</div><br/>
+<div align="center"><img src="readme_images/área_maior_top5_ucs_região_nordeste.jpg"/></div>
+<div align="center"><b>5 maiores UCs da região nordeste - Fonte: Arquivo pessoal</b></div><br/>
+<div align="center"><img src="readme_images/área_menor_top5_ucs_região_nordeste.jpg"/></div>
+<div align="center"><b>5 menores UCs da região nordeste - Fonte: Arquivo pessoal</b></div><br/>
+
 ### Região Centro-Oeste
 
 <div align='justify'>
@@ -218,6 +236,12 @@ Como pode ser observado anteriormente, existem cerca de 340 Unidades de conserva
     </ul>
 </div>
 
+<div align='justify'>Abaixo terá os gráficos das maiores e menores UCs presentes, e registradas, na região centro-oeste.</div><br/>
+<div align="center"><img src="readme_images/área_maior_top5_ucs_região_centro_oeste.jpg"/></div>
+<div align="center"><b>5 maiores UCs do Brasil - Fonte: Arquivo pessoal</b></div><br/>
+<div align="center"><img src="readme_images/área_menor_top5_ucs_região_centro_oeste.jpg"/></div>
+<div align="center"><b>5 menores UCs do Brasil - Fonte: Arquivo pessoal</b></div><br/>
+
 ### Região Sudeste
 
 <div align='justify'>
@@ -248,6 +272,12 @@ Como pode ser observado anteriormente, existem cerca de 340 Unidades de conserva
     </ul>
 </div>
 
+<div align='justify'>Abaixo terá os gráficos das maiores e menores UCs presentes, e registradas, na região sudeste.</div><br/>
+<div align="center"><img src="readme_images/área_maior_top5_ucs_região_sudeste.jpg"/></div>
+<div align="center"><b>5 maiores UCs da região sudeste - Fonte: Arquivo pessoal</b></div><br/>
+<div align="center"><img src="readme_images/área_menor_top5_ucs_região_sudeste.jpg"/></div>
+<div align="center"><b>5 menores UCs da região sudeste - Fonte: Arquivo pessoal</b></div><br/>
+
 ### Região Sul
 
 <div align='justify'>
@@ -277,6 +307,12 @@ Como pode ser observado anteriormente, existem cerca de 340 Unidades de conserva
         </li>
     </ul>
 </div>
+
+<div align='justify'>Abaixo terá os gráficos das maiores e menores UCs presentes, e registradas, na região sul.</div><br/>
+<div align="center"><img src="readme_images/área_maior_top5_ucs_região_sul.jpg"/></div>
+<div align="center"><b>5 maiores UCs da região sul - Fonte: Arquivo pessoal</b></div><br/>
+<div align="center"><img src="readme_images/área_menor_top5_ucs_região_sul.jpg"/></div>
+<div align="center"><b>5 menores UCs da região sul - Fonte: Arquivo pessoal</b></div><br/>
 
 ## Comparação UCs Nacional x UCs Regional
 
